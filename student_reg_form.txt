@@ -1,0 +1,40 @@
+<html>
+<head><title>Biodata</title>
+</head>
+<body>
+<center>
+<h1>Student Registration Page</h1>
+</center>
+<table border="1" align="center">
+<tr>
+<td>Name:</td>
+<td><input type="text" name="stud_name"/></td>
+</tr>
+<tr>
+<td>Course:</td>
+<td>
+<select name="stud_course">
+<option value="Course">Course</option>
+<option value="CSE">CSE</option>
+<option value="IT">IT</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="gender" value="Male">Male</br>
+<input type="radio" name="gender" value="Fe-Male">Fe-Male</br>
+<input type="radio" name="gender" value="others">others
+</td>
+</tr>
+<tr>
+<td>Address:</td>
+<td>
+<textarea cols="10" rows="5"></textarea>
+</td>
+</tr>
+</table>
+
+</body>
+</html>
